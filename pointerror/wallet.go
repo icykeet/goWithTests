@@ -1,6 +1,9 @@
 package pointerror
 
-import "fmt"
+import (
+	"errors"
+	"fmt"
+)
 
 type Bitcoint int
 
@@ -8,12 +11,17 @@ type Wallet struct {
 	balance Bitcoint
 }
 
-func (w *Wallet) Withdraw(amount Bitcoint) {
+var ErrInsufficientFunds = errors.New("cannot withdraw, insufficient funds")
+
+func (w *Wallet) Withdraw(amount Bitcoint) error {
+	if amount > w.Balance() {
+		return ErrInsufficientFunds
+	}
 	w.balance -= amount
+	return nil
 }
 
 func (w *Wallet) Deposit(amount Bitcoint) {
-	fmt.Printf("address of balance in Deposit is %p \n", &w.balance)
 	w.balance += amount
 }
 
