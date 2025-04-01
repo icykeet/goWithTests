@@ -1,49 +1,0 @@
-Script started on Mon Mar 24 16:12:35 2025
-[oh-my-zsh] Would you like to update? [Y/n] Y
-[34mUpdating Oh My Zsh[0m
-
-Created autostash: 88980aa
-Applied autostash.
-[1;4mmaster[0m
-
-[1mFeatures:[0m
-
- - [33m85d60d4[0m [[38;5;9mdirhistory[0m]  Add support for ghostty ([32m#12868[0m)
- - [33m407be8f[0m [[38;5;9mdirhistory[0m]  Preserve forward directories with `[2mcde[0m` alias ([32m#9328[0m)
- - [33m6591606[0m [[38;5;9mjira[0m]        Add `[2mproject[0m` command to open project ([32m#12851[0m)
- - [33mac13351[0m [[38;5;9mmacos[0m]       Add support for Ghostty ([32m#12890[0m)
- - [33mbea0dd2[0m [[38;5;9mmix[0m]         Autocomplete `[2mformat[0m` command ([32m#13012[0m)
- - [33mec07c79[0m [[38;5;9mtmux[0m]        Refresh global environments automatically ([32m#5282[0m)
- - [33m070f823[0m [[38;5;9muv[0m]          Alias `[2muv[0m` with `[2mnoglob[0m` ([32m#12866[0m)
-
-[1mBug fixes:[0m
-
- - [33m899af63[0m [[38;5;9mbgnotify[0m]    Detect if sway is running and not just installed ([32m#12989[0m)
- - [33mf97e871[0m [[38;5;9mconda[0m]       Correct typo in alias parameter ([32m#13010[0m)
- - [33m0682996[0m [[38;5;9mdirhistory[0m]  Support iTerm2 natural text key bindings ([32m#11026[0m)
- - [33mda2510c[0m [[38;5;9mnicoluaj[0m]    Avoid overriding customization params ([32m#12859[0m)
- - [33m34e9830[0m [[38;5;9mranq-quote[0m]  Use https for quote retrieval ([32m#13021[0m)
- - [33m5eaebdf[0m [[38;5;9mtermsupport[0m] Ensure ohmyzsh can run with `[2mset -eu[0m`
-
-[1mDocumentation:[0m
-
- - [33m0c8c7bf[0m [[38;5;9mtmux[0m]        Add note to README for [32m#5282[0m
-
-[34mYou can see the changelog with `[1momz changelog[0m[34m`[0m
-[38;2;255;0;0m         [38;2;255;97;0m__      [38;2;247;255;0m           [38;2;0;255;30m        [38;2;77;0;255m       [38;2;168;0;255m     [38;2;245;0;172m__   [0m
-[38;2;255;0;0m  ____  [38;2;255;97;0m/ /_    [38;2;247;255;0m ____ ___  [38;2;0;255;30m__  __  [38;2;77;0;255m ____  [38;2;168;0;255m_____[38;2;245;0;172m/ /_  [0m
-[38;2;255;0;0m / __ \[38;2;255;97;0m/ __ \  [38;2;247;255;0m / __ `__ \[38;2;0;255;30m/ / / / [38;2;77;0;255m /_  / [38;2;168;0;255m/ ___/[38;2;245;0;172m __ \ [0m
-[38;2;255;0;0m/ /_/ /[38;2;255;97;0m / / / [38;2;247;255;0m / / / / / /[38;2;0;255;30m /_/ / [38;2;77;0;255m   / /_[38;2;168;0;255m(__  )[38;2;245;0;172m / / / [0m
-[38;2;255;0;0m\____/[38;2;255;97;0m_/ /_/ [38;2;247;255;0m /_/ /_/ /_/[38;2;0;255;30m\__, / [38;2;77;0;255m   /___/[38;2;168;0;255m____/[38;2;245;0;172m_/ /_/  [0m
-[38;2;255;0;0m    [38;2;255;97;0m        [38;2;247;255;0m           [38;2;0;255;30m /____/ [38;2;77;0;255m       [38;2;168;0;255m     [38;2;245;0;172m          [0m
-
-[34mHooray! Oh My Zsh has been updated![0m
-
-[34m[1mTo keep up with the latest news and updates, follow us on X: [4mhttps://x.com/ohmyzsh[24m[0m
-[34m[1mWant to get involved in the community? Join our Discord: [4mhttps://discord.gg/ohmyzsh[24m[0m
-[34m[1mGet your Oh My Zsh swag at: [4mhttps://shop.planetargon.com/collections/oh-my-zsh[24m[0m
-[1m[7m%[27m[1m[0m                                                                                                                                                   ]2;icykeet@IcyKeet:~/workspace/github/goWithTests]1;..b/goWithTests]7;file://IcyKeet.dlink/Users/icykeet/workspace/github/goWithTests\[0m[27m[24m[J[01;32m➜  [36mgoWithTests[00m [K[?1h=[?2004h[?1l>[?2004l
-[1m[7m%[27m[1m[0m                                                                                                                                                   ]2;icykeet@IcyKeet:~/workspace/github/goWithTests]1;..b/goWithTests]7;file://IcyKeet.dlink/Users/icykeet/workspace/github/goWithTests\[0m[27m[24m[J[01;32m➜  [36mgoWithTests[00m [K[?1h=[?2004h[0m[27m[24m[J[01;32m➜  [36mgoWithTests[00m [01;34mgit:([31mdev1[34m) [33m✗[00m [K[?2004l
-[1m[7m%[27m[1m[0m                                                                                                                                                   ]2;icykeet@IcyKeet:~/workspace/github/goWithTests]1;..b/goWithTests]7;file://IcyKeet.dlink/Users/icykeet/workspace/github/goWithTests\[0m[27m[24m[J[01;31m➜  [36mgoWithTests[00m [01;34mgit:([31mdev1[34m) [33m✗[00m [K[?1h=[?2004h[?2004l
-
-Script done on Mon Mar 24 16:12:47 2025
